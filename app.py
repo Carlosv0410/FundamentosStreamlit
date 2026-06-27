@@ -15,4 +15,4 @@ tiempo_meses = st.number_input("Ingrese el tiempo en meses")
 
 resultado = monto*interes*(tiempo_meses/12)
 
-st.write("El resultado es:" , reultado)
+st.write("El resultado es:" , resultado)
