@@ -7,11 +7,11 @@ st.sidebar.image("LogoUHE.png")
 st.sidebar.title("Parámetros")
 
 
-monto = st.number_input("Ingrese el monto de su prestamo")
+monto = st.number_input("Ingrese el monto de su prestamo", value = 5000)
 
-interes = st.number_input("Ingrese el interes")
+interes = st.number_input("Ingrese el interes", value = 0.05)
 
-tiempo_meses = st.number_input("Ingrese el tiempo en meses")
+tiempo_meses = st.number_input("Ingrese el tiempo en meses" , value = 12)
 
 resultado = monto*interes*(tiempo_meses/12)
 
